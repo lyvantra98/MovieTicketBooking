@@ -7,7 +7,7 @@ gem "rails", "~> 6.0.2", ">= 6.0.2.1"
 
 gem "bcrypt", "3.1.12"
 
-gem 'rails-i18n'
+gem "rails-i18n"
 
 gem "sqlite3", "~> 1.4"
 
