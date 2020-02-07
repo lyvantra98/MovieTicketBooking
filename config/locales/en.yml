@@ -1,2 +1,36 @@
 en:
   title: MovieTicketBooking
+  english: "EN"
+  vietnam: "VN"
+  static_pages:
+    home:
+        title: "Home"
+        caption: "Welcome to the MovieTicketBooking"
+    help:
+        title: "Help"
+        caption: "Help"
+  header:
+    booking: BOOKING
+    search: Search
+    movies: Movies
+    theaters: Theaters
+    news: News
+  footer:
+    introduce: INTRODUCE
+    cinema_blog: CINEMA BLOG
+    support: SUPPORT
+    contact: CONTACT
+    about_us: About Us
+    team_of_use: Teams Of Use
+    openrating: Operating Regulation
+    privacy_police: Privacy Police
+    movie_genre: Movie Genre
+    movie_review: Movie Review
+    movie_blog: Movie Blog
+    hot_movie: Hot Movie
+    feedback: Feedback
+    sale_service: Sale & Services
+    cinema_ticket: Cinema/Ticket
+    career: Career
+    coppyright: Copyright 2020 © Sun*. Ltd. All Rights Reserved.
+    bot: The content and images used on this site are copyright protected and copyrights vests with the respective owners. The usage of the content and images on this website is intended to promote the works and no endorsement of the artist shall be implied. Unauthorized use is prohibited and punishable by law.
