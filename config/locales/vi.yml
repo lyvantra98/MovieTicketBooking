@@ -1,2 +1,37 @@
 vi:
   title: Dat ve xem phim
+  english: "EN"
+  vietnam: "VN"
+  static_pages:
+    home:
+        title: "Trang Chủ"
+        caption: "Chào mừng bạn đến với Website Đặt vé xem phim"
+    help:
+        title: "Trợ Giúp"
+        caption: "Trợ Giúp"
+  header:
+    booking: BOOKING
+    search: Tìm Kiếm
+    movies: Phim
+    theaters: Rạp
+    news: Tin Tức
+  footer:
+    introduce: GIỚI THIỆU
+    cinema_blog: GÓC ĐIỆN ẢNH
+    support: HỖ TRỢ
+    contact: LIÊN HỆ
+    about_us: Về Chúng Tôi
+    team_of_use: Thỏa Thuận Sử Dụng
+    openrating: Quy Chế Hoạt Động
+    privacy_police: Chính Sách Bảo Mật
+    movie_genre: Thể Loại Phim
+    movie_review: Bình Luận Phim
+    movie_blog: Blog Phim
+    hot_movie: Phim nổi bật
+    feedback: Góp Ý
+    sale_service: Sale & Services
+    cinema_ticket: Rạp / Giá Vé
+    career: Tuyển Dụng
+    coppyright: Copyright 2020 © Sun*. Ltd. All Rights Reserved.
+    bot: Nội dung và hình ảnh được sử dụng trên trang web này được bảo vệ bản quyền và bản quyền với các chủ sở hữu tương ứng. Việc sử dụng nội dung và hình ảnh trên trang web này nhằm mục đích quảng bá các tác phẩm và không có sự chứng thực của nghệ sĩ. Sử dụng trái phép bị cấm và bị pháp luật trừng phạt.The content and images used on this site are copyright protected and copyrights vests with the respective owners. The usage of the content and images on this website is intended to promote the works and no endorsement of the artist shall be implied. Unauthorized use is prohibited and punishable by law.
+
