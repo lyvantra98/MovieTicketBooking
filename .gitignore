@@ -28,3 +28,10 @@ yarn-debug.log*
 .rubocop.yml
 .rubocop_disabled.yml
 .rubocop_enabled.yml
+
+/test/*
+
+config/settings/database.yml
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml

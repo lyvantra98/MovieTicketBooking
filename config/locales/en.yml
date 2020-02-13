@@ -2,6 +2,33 @@ en:
   title: MovieTicketBooking
   english: "EN"
   vietnam: "VN"
+  sign_up: "Sign up"
+  shared:
+    error_messages:
+      content: "The form contains %{size} error"
+  helpers:
+    label:
+      user:
+        name: "Name"
+        password: "Password"
+        email: "Email"
+        password_confirmation: "Confirm"
+        phone: "Phone number"
+        city: "City"
+        birthday: "Date of birth"
+        gender: "Gender"
+        male: "Male"
+        female: "Female"
+  users:
+    new:
+        sign_up: "Sign up"
+        create: "Create me account"
+        male: "Male"
+        female: "Female"
+    create:
+      success_create: "You have successfully registered!"
+    show:
+      fail_show: "not found"
   static_pages:
     home:
         title: "Home"
