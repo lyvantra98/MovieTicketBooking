@@ -1,7 +1,11 @@
 source "https://rubygems.org"
-git_source(:github){|repo| "https://github.com/#{repo}.git"}
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "2.6.3"
+gem "font-awesome-rails"
+
+gem "config"
+
 gem "font-awesome-rails"
 
 gem "rails", "~> 6.0.2", ">= 6.0.2.1"
@@ -29,7 +33,7 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "bootstrap-sass", "3.3.7"
 
 group :development, :test do
-  gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
+  gem "byebug", platforms: %i[mri mingw x64_mingw]
 end
 
 group :development do
@@ -49,4 +53,3 @@ group :development, :test do
   gem "rubocop", "~> 0.74.0", require: false
   gem "rubocop-rails", "~> 2.3.2", require: false
 end
-
