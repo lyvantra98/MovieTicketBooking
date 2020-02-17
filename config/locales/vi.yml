@@ -2,7 +2,15 @@ vi:
   title: Đặt vé xem phim
   english: "EN"
   vietnam: "VN"
-  sign_up: "Đăng ký"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      name_btn: "Đăng nhập"
+      new_user: "Người dùng mới? %{link_sigup}"
+      sigup: "Đăng kí bây giờ!"
+      remember: "Nhớ mật khẩu"
+    create:
+      noti_invalid: "Email / mật khẩu không hợp lệ"
   shared:
     error_messages:
       content: "Biểu mẫu chứa %{size} lỗi"
