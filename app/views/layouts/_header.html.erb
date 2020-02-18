@@ -28,7 +28,12 @@
               <% end %>
             <ul class="dropdown-menu">
               <% if logged_in? %>
-                <li><%= link_to t(".profile"), current_user %></li>
+                <li>
+                  <%= link_to t(".profile"), edit_user_path(current_user) %>
+                </li>
+                <li>
+                  <%= link_to t(".change_pass"), "#" %>
+                </li>
                 <li class="divider"></li>
                 <li>
                  <%= link_to t(".log_out"), logout_path, method: :delete %>

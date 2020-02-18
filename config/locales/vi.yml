@@ -2,12 +2,17 @@ vi:
   title: Đặt vé xem phim
   english: "EN"
   vietnam: "VN"
+  layouts:
+    header:
+      log_out: "Đăng xuất"
+      profile: "Hồ sơ"
+      login:  "Đăng nhập"
+      change_pass: "Thay đổi mật khẩu"
   sessions:
     new:
       title: "Đăng nhập"
       name_btn: "Đăng nhập"
-      new_user: "Người dùng mới? %{link_sigup}"
-      sigup: "Đăng kí bây giờ!"
+      new_user_html: 'Người dùng mới? <a href="%{link_sigup}">Đăng kí bây giờ!</a>'
       remember: "Nhớ mật khẩu"
     create:
       noti_invalid: "Email / mật khẩu không hợp lệ"
@@ -31,10 +36,19 @@ vi:
       create: "Tạo tài khoản cho tôi"
       male: "Nam"
       female: "Nữ"
+    edit:
+      save_changes: "Lưu thay đổi"
+      profile: "Hồ sơ"
+      flash_login: "Hãy đăng nhập."
+      flash_load_user: "Không tìm thấy người dùng."
     create:
       success_create: "Bạn đã đăng ký thành công"
     show:
       fail_show: "không tìm thấy"
+      flash_login: "Hãy đăng nhập."
+      flash_load_user: "Không tìm thấy người dùng."
+    update:
+      flash_update: "Hồ sơ cá nhân đã cập nhật"
   static_pages:
     home:
         title: "Trang Chủ"

@@ -4,7 +4,8 @@ class User < ApplicationRecord
                     format: { with: Settings.email_regex },
                     uniqueness: { case_sensitive: false }
   validates :password, presence: true,
-                       length: { minimum: Settings.val_pass_min }
+                       length: { minimum: Settings.val_pass_min },
+                       allow_nil: true
   validates :phone, presence: true, length: { maximum: Settings.val_phone_max },
                     format: { with: Settings.phone_regex }
   before_save :email_downcase

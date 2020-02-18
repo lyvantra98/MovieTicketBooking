@@ -2,11 +2,17 @@ en:
   title: MovieTicketBooking
   english: "EN"
   vietnam: "VN"
+  layouts:
+    header:
+      log_out: "Logout"
+      profile: "Profile"
+      login:  "Login"
+      change_pass: "Change Password"
   sessions:
     new:
       title: "Login"
       name_btn: "Log in"
-      new_user: 'New user? <a href="%{link_sigup}">Sign up now!</a>'
+      new_user_html: 'New user? <a href="%{link_sigup}">Sign up now!</a>'
       remember: "Remember"
     create:
       noti_invalid: "Invalid email/password combination"
@@ -32,10 +38,19 @@ en:
         create: "Create me account"
         male: "Male"
         female: "Female"
+    edit:
+      save_changes: "Save changes"
+      profile: "Profile"
+      flash_login: "Please login!"
+      flash_load_user: "Not found user"
     create:
       success_create: "You have successfully registered!"
     show:
       fail_show: "not found"
+      flash_login: "Please login!"
+      flash_load_user: "Not found user"
+    update:
+      flash_update: "Profile updated"
   static_pages:
     home:
         title: "Home"
